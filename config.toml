@@ -1,0 +1,199 @@
+baseURL = "https://bailatoronto.github.io/"
+languageCode = "en-us"
+title = "Baila Toronto"
+theme="restaurant-hugo"
+summaryLength = "7"
+
+# Menu
+[menu]
+
+	[[menu.nav]]
+    name = "Home"
+    URL = "hero-area"
+    weight = 1
+
+    [[menu.nav]]
+    name = "About Us"
+    URL = "about-us"
+    weight = 2
+
+    [[menu.nav]]
+    name = "Team"
+    URL = "slider"
+    weight = 3
+
+    [[menu.nav]]
+    name = "Schedule"
+    URL = "schedule"
+    weight = 4
+
+    [[menu.nav]]
+    name = "Price"
+    URL = "price"
+    weight = 5
+
+    [[menu.nav]]
+    name = "Location"
+    URL = "location"
+    weight = 6
+
+    [[menu.nav]]
+    name = "Contact Us"
+    URL = "contact-us"
+    weight = 7
+
+
+
+# Global Settings
+[params]
+logo = "images/logo_sm.png"
+
+
+[params.heroArea]
+enable = true
+[params.heroImg ]
+url =  "images/header.jpg"
+
+
+#gallery item
+
+[params.gallery]
+enable = true
+title= "<span> Team </span>"
+
+[[params.gallery.item]]
+img = "images/slider/slider-img-1.jpg"
+
+[[params.gallery.item]]
+img = "images/slider/slider-img-2.jpg"
+
+[[params.gallery.item]]
+img = "images/slider/slider-img-3.jpg"
+
+[[params.gallery.item]]
+img = "images/slider/slider-img-4.jpg"
+
+# [[params.gallery.item]]
+# img = "images/slider/slider-img-1.jpg"
+#
+# [[params.gallery.item]]
+# img = "images/slider/slider-img-2.jpg"
+#
+# [[params.gallery.item]]
+# img = "images/slider/slider-img-3.jpg"
+
+
+[params.about]
+enable = true
+title= "<span> About Us </span>"
+bgImage = "images/logo_md.png"
+description= "Baila Toronto is a dance school in Toronto dedicated to teaching Brazilian dance styles with Brazilian methods. We currently provide Samba de Gafieira classes. We also organize events and socials, as well as workshops for many Brazilian dance styles. Check out our schedule and come try a class for free."
+
+
+[params.schedule]
+enable = true
+title = "<span> Schedule </span>"
+bgImage = "images/schedule.png"
+description= "Samba Beginner is a 3 month session class that starts every 4-5 months"
+
+
+#food Menu
+
+[params.foodMenu]
+enable = true
+title = "<span> Prices </span>"
+description= "We offer student discount with a valid (and current) student card."
+subtitle = "Price list"
+
+[[params.foodMenu.item]]
+title="Samba Beginner (9-10pm)"
+description= "Student $45"
+price = "$ 65.00"
+
+[[params.foodMenu.item]]
+title="Samba I (7-8pm)"
+description= "Student $45"
+price = "$ 65.00"
+
+[[params.foodMenu.item]]
+title="Samba III (8-9pm)"
+description= "Student $45"
+price = "$ 65.00"
+
+
+
+#subscription
+
+[params.subscription]
+enable = true
+title= "SUBSCRIBE to our <span>NEWSLETTER</span>"
+description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+
+#Mailchimp subscription configaration
+formAction = "https://themefisher.us9.list-manage.com/subscribe/post?u=f95ece2732a6e9925f2e70a61&amp;id=b1e227529e"
+formName = "b_f95ece2732a6e9925f2e70a61_b1e227529e"
+
+#Location
+
+[params.location]
+enable = true
+title = "<span> Location </span>"
+description= "Classes are thaught every Thursday at the Dovercourt House (805 dovercourt Rd.)"
+bgImage = "images/map.png"
+
+
+#Contact
+
+[params.contact]
+enable = true
+title= "<span> Contact Us </span>"
+subtitle= "Ask us a question"
+description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+
+#Footer
+
+[params.footer]
+enable = true
+contactInfoTitle = "CONTACT <span>INFO</span> "
+# blogTitle = "LATEST <span>BLOG POSTS</span>"
+# galleryTitle = "PHOTO <span>STREAM</span>"
+socialTitle = "Follow <span>US</span>"
+
+[[params.footer.contactItem]]
+title="Telephone"
+icon = "fa fa-phone"
+content = "(647) 470-8428"
+
+# [[params.footer.contactItem]]
+# title="Address"
+# icon = "fa fa-map-marker"
+# content = "2046 Blue Spruce Lane Laurel Canada"
+
+[[params.footer.contactItem]]
+title="E mail"
+icon = "fa fa-envelope"
+content = "info@bailatoronto.ca"
+
+[[params.footer.socialLink]]
+icon = "facebook"
+link = "https://fb.com/bailatoronto"
+
+[[params.footer.socialLink]]
+icon = "instagram"
+link = "https://www.instagram.com/bailatoronto/"
+
+
+#Footer Copyright
+
+#Footer Copyright Text
+[params.footerCopyright]
+enable = true
+Text = "Copyright 2019 - All Rights Reserved.Design and Developed By Themefisher.com"
+
+
+
+
+#blog
+# [params.blog]
+# enable = true
+# title = "Latest <span>From</span> the <span>Blog</span>"

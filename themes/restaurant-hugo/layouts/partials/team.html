@@ -1,0 +1,19 @@
+{{ if .Site.Params.team.enable }}
+<section id="team">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block">
+                    <!-- <img src="{{ .Site.Params.team.bgImage | absURL }}" alt="Logo" /> -->
+                    <h1 class="heading wow fadeInUp" data-wow-duration="400ms" data-wow-delay="500ms" >
+                        {{ with .Site.Params.team.title }} {{ . | safeHTML }} {{ end }}
+                    </h1>
+                    <p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="600ms">
+                        {{ with .Site.Params.team.description }} {{ . | safeHTML }} {{ end }}
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{end}}
