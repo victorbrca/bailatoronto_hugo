@@ -1,5 +1,6 @@
-baseURL = "https://victormendonca.com/bailatoronto.github.io/"
+#baseURL = "https://victormendonca.com/bailatoronto.github.io/"
 #baseURL = "https://bailatoronto.github.io/"
+baseURL = "https://bailatoronto.ca/"
 languageCode = "en-us"
 title = "Baila Toronto"
 theme="restaurant-hugo"
