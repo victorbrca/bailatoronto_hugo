@@ -1,12 +1,15 @@
-#baseURL = "https://victormendonca.com/bailatoronto.github.io/"
-#baseURL = "https://bailatoronto.github.io/"
 baseURL = "https://bailatoronto.ca/"
+# baseURL = "http://localhost:1313/"
 languageCode = "en-us"
 title = "Baila Toronto"
 theme="restaurant-hugo"
 summaryLength = "7"
 
+
+#-------------------------------------------------------------------------------
 # Menu
+#-------------------------------------------------------------------------------
+
 [menu]
 
 	[[menu.nav]]
@@ -50,14 +53,38 @@ summaryLength = "7"
 [params]
 logo = "images/logo_sm.png"
 
-
 [params.heroArea]
 enable = true
 [params.heroImg ]
 url =  "images/header.jpg"
 
+#-------------------------------------------------------------------------------
+# Events
+#-------------------------------------------------------------------------------
 
-#gallery item
+[params.events]
+enable = true
+title= "<span> Events and News </span>"
+
+[[params.events.item]]
+img = "images/slider/slider-img-5.jpg"
+
+[[params.events.item]]
+img = "images/slider/slider-img-6.jpg"
+
+#-------------------------------------------------------------------------------
+# About us
+#-------------------------------------------------------------------------------
+
+[params.about]
+enable = true
+title= "<span> About Us </span>"
+bgImage = "images/logo_md.png"
+description= "Baila Toronto is a dance school in Toronto dedicated to teaching Brazilian dance styles with Brazilian methods. We currently provide Samba de Gafieira classes. We also organize events and socials, as well as workshops for many Brazilian dance styles. Check out our schedule and come try a class for free."
+
+#-------------------------------------------------------------------------------
+# Team
+#-------------------------------------------------------------------------------
 
 [params.gallery]
 enable = true
@@ -84,13 +111,9 @@ img = "images/slider/slider-img-4.jpg"
 # [[params.gallery.item]]
 # img = "images/slider/slider-img-3.jpg"
 
-
-[params.about]
-enable = true
-title= "<span> About Us </span>"
-bgImage = "images/logo_md.png"
-description= "Baila Toronto is a dance school in Toronto dedicated to teaching Brazilian dance styles with Brazilian methods. We currently provide Samba de Gafieira classes. We also organize events and socials, as well as workshops for many Brazilian dance styles. Check out our schedule and come try a class for free."
-
+#-------------------------------------------------------------------------------
+# Schedule
+#-------------------------------------------------------------------------------
 
 [params.schedule]
 enable = true
@@ -98,8 +121,9 @@ title = "<span> Schedule </span>"
 bgImage = "images/schedule.png"
 description= "Samba Beginner is a 3 month session class that starts every 4-5 months"
 
-
-#food Menu
+#-------------------------------------------------------------------------------
+# Prices
+#-------------------------------------------------------------------------------
 
 [params.foodMenu]
 enable = true
@@ -122,9 +146,9 @@ title="Samba III (8-9pm)"
 description= "Student $45"
 price = "$ 65.00"
 
-
-
-#subscription
+#-------------------------------------------------------------------------------
+# Subscription
+#-------------------------------------------------------------------------------
 
 [params.subscription]
 enable = true
@@ -135,7 +159,10 @@ description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do e
 formAction = "https://themefisher.us9.list-manage.com/subscribe/post?u=f95ece2732a6e9925f2e70a61&amp;id=b1e227529e"
 formName = "b_f95ece2732a6e9925f2e70a61_b1e227529e"
 
-#Location
+
+#-------------------------------------------------------------------------------
+# Location
+#-------------------------------------------------------------------------------
 
 [params.location]
 enable = true
@@ -144,7 +171,9 @@ description= "Classes are thaught every Thursday at the Dovercourt House (805 do
 bgImage = "images/map.png"
 
 
-#Contact
+#-------------------------------------------------------------------------------
+# Contact
+#-------------------------------------------------------------------------------
 
 [params.contact]
 enable = true
@@ -191,11 +220,3 @@ link = "https://www.instagram.com/bailatoronto/"
 [params.footerCopyright]
 enable = true
 Text = "Copyright 2019 - All Rights Reserved.Design and Developed By Themefisher.com"
-
-
-
-
-#blog
-# [params.blog]
-# enable = true
-# title = "Latest <span>From</span> the <span>Blog</span>"
