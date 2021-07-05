@@ -176,7 +176,8 @@ bgImage = "images/map.png"
 #-------------------------------------------------------------------------------
 
 [params.contact]
-enable = true
+#enable = true
+enable = false
 title= "<span> Contact Us </span>"
 subtitle= "Ask us a question"
 description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
@@ -190,10 +191,10 @@ contactInfoTitle = "CONTACT <span>INFO</span> "
 # galleryTitle = "PHOTO <span>STREAM</span>"
 socialTitle = "Follow <span>US</span>"
 
-[[params.footer.contactItem]]
-title="Telephone"
-icon = "fa fa-phone"
-content = "(647) 470-8428"
+#[[params.footer.contactItem]]
+#title="Telephone"
+#icon = "fa fa-phone"
+#content = "(647) 470-8428"
 
 # [[params.footer.contactItem]]
 # title="Address"
